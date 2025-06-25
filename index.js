@@ -5,7 +5,7 @@ const pino = require('pino');
 const { Storage } = require('megajs');
 
 // === CONFIG ===
-const SESSION_ID = 'mekaai_abadf913';
+const SESSION_ID = '';
 const LOG_FILE = path.join(__dirname, 'logs.txt');
 const OWNER_JID = '2349117525115@s.whatsapp.net'; // Replace with actual owner JID
 let repliedMap = new Map(); // Prevent duplicate replies
